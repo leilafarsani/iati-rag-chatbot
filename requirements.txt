@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+requests
+sentence-transformers
+openai
+faiss-cpu
+pandas
+lxml
+tqdm
+scikit-learn
