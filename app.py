@@ -1,5 +1,3 @@
-# app.py
-
 import streamlit as st
 import pandas as pd
 from dotenv import load_dotenv
@@ -14,7 +12,7 @@ load_dotenv()
 st.set_page_config(page_title="IATI Aid Chatbot", page_icon="🌍")
 st.title("🌍 IATI Aid Chatbot")
 st.markdown(
-    "Explore live international aid activities from the [IATI Datastore](https://iatistandard.org). "
+    "Explore live international aid activities from the [IATI](https://iatistandard.org). "
     "Start by filtering aid projects by country and sector, and optionally ask a question!"
 )
 
