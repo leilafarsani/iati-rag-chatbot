@@ -117,3 +117,7 @@ if country and sector:
             st.error(f"❌ Failed to fetch data: {e}")
 else:
     st.info("⬆️ Please select both a **country** and a **sector** to begin.")
+st.markdown(
+    "💡 *Want more insights? Scroll to the bottom of the page to ask a question about the results!*"
+)
+
